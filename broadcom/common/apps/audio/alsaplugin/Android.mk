@@ -24,7 +24,8 @@
   LOCAL_CFLAGS := -fPIC -DPIC -D_POSIX_SOURCE -fomit-frame-pointer -O3 -mcpu=cortex-a9 -mfpu=neon -mthumb-interwork -fno-builtin -fno-short-enums -mfloat-abi=softfp -ftree-vectorize
 
 #  LOCAL_C_INCLUDES += external/alsa-lib/include  $(TARGET_COMMON_BASE)/include/linux/broadcom/
- LOCAL_C_INCLUDES += $(BRCM_ALSA_LIB_DIR)/include  $(TARGET_COMMON_BASE)/include/linux/broadcom/
+#  LOCAL_C_INCLUDES += $(BRCM_ALSA_LIB_DIR)/include  $(TARGET_COMMON_BASE)/include/linux/broadcom/
+  LOCAL_EXPORT_C_INCLUDE_DIRS += $(BRCM_ALSA_LIB_DIR)/include  $(TARGET_COMMON_BASE)/include/linux/broadcom/
 
   LOCAL_SRC_FILES := \
 		simplefilter.c

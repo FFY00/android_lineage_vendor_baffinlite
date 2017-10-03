@@ -33,7 +33,7 @@ include $(BUILD_PACKAGE)
 include $(MY_LOCAL_PATH)/native/libpng/Android.mk
 include $(MY_LOCAL_PATH)/native/libusb-1.0.8/Android.mk
 include $(MY_LOCAL_PATH)/native/gnu-ghostscript-8.64.0/Android.mk
-include $(MY_LOCAL_PATH)/native/cups/Android.mk
+#include $(MY_LOCAL_PATH)/native/cups/Android.mk
 
 
 

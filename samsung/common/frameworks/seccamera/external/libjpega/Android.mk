@@ -18,8 +18,8 @@ LOCAL_SHARED_LIBRARIES:= \
 
 LOCAL_SRC_FILES:=\
 	jpeg-data.c\
-	jpeg-marker.c\
-	exif-i18n
+	jpeg-marker.c#\
+#	exif-i18n
 
 #LOCAL_CFLAGS:=-O2 -g
 #LOCAL_CFLAGS+=-DHAVE_CONFIG_H -D_U_="__attribute__((unused))" -Dlinux -D__GLIBC__ -D_GNU_SOURCE
